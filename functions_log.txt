@@ -1,0 +1,71 @@
+2024-11-22 10:12:27 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:17:40 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:17:51 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:17:51 - INFO - The input HI was not a number.
+2024-11-22 10:19:20 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:19:20 - ERROR - The input HI was not a number.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 42, in square_r
+    result = math.sqrt(a)
+TypeError: must be real number, not str
+2024-11-22 10:22:42 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:22:42 - ERROR - The input HI is not a number.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 42, in square_r
+    result = math.sqrt(a)
+TypeError: must be real number, not str
+2024-11-22 10:22:42 - ERROR - The input 5 is not a string.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 51, in lenght_str
+    result = len(a)
+TypeError: object of type 'int' has no len()
+2024-11-22 10:22:50 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:22:50 - ERROR - The input HI is not a number.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 42, in square_r
+    result = math.sqrt(a)
+TypeError: must be real number, not str
+2024-11-22 10:23:00 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:23:00 - ERROR - The input HI is not a number.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 42, in square_r
+    result = math.sqrt(a)
+TypeError: must be real number, not str
+2024-11-22 10:34:20 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:34:20 - ERROR - The input HI is not a number.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 42, in square_r
+    result = math.sqrt(a)
+TypeError: must be real number, not str
+2024-11-22 10:34:20 - INFO - The length of 5 hello is 7.
+2024-11-22 10:34:20 - ERROR - Both, hi and 5 must be numbers.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 62, in div_num
+    result = a // b
+             ~~^^~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+2024-11-22 10:34:32 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:34:32 - ERROR - The input HI is not a number.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 42, in square_r
+    result = math.sqrt(a)
+TypeError: must be real number, not str
+2024-11-22 10:34:32 - INFO - The length of 5 hello is 7.
+2024-11-22 10:34:32 - INFO - The division between 5 and 5 is 1.
+2024-11-22 10:34:41 - INFO - The sum of numbers (1, 2) is: 3
+2024-11-22 10:34:41 - ERROR - The input HI is not a number.
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 42, in square_r
+    result = math.sqrt(a)
+TypeError: must be real number, not str
+2024-11-22 10:34:41 - INFO - The length of 5 hello is 7.
+2024-11-22 10:34:41 - ERROR - Cannot divide a number with 0
+Traceback (most recent call last):
+  File "C:\Users\dmste\Desktop\CodeAcademy\ptua16\CodeAcademy\logging_13.py", line 62, in div_num
+    result = a // b
+             ~~^^~~
+ZeroDivisionError: integer division or modulo by zero
+2024-11-22 14:31:09 - INFO - The engine is in good conditions, it should not need any maintenance for 300km.
+2024-11-22 14:31:14 - INFO - The car has a full tank, you have approximately 400km autonomy, you are good to go!
+2024-11-22 14:31:17 - INFO - The oil level is good, check the status every 30 days.
+2024-11-22 14:31:26 - ERROR - The oil level is bad, please refill it ASAP to avoid ulterior damage to the car.
