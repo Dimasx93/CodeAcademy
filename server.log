@@ -1,0 +1,5 @@
+2024-12-01 12:00:01 INFO User logged in: user123
+2024-12-01 12:05:23 ERROR Failed to load resource: /images/banner.png
+2024-12-01 12:15:45 INFO User logged out: user123
+2024-12-01 13:00:01 INFO User logged in: user456
+2024-12-01 13:05:23 ERROR Failed to load resource: /css/styles.css
