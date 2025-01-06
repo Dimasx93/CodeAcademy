@@ -130,6 +130,7 @@ class TankGame:
             self.reset_target()  # Reset the target to a new random position
         else:
             print("YOU MISSED!")
+            self.tot_points -= 10
 
     def reset_target(self):
         """Reset the target to a new random position, ensuring it's not at the tank's position."""
