@@ -4,7 +4,7 @@
 
 from sqlalchemy.orm import sessionmaker
 
-from sql_alchemy_exercise_4 import (Person, Bank, Account, engine)
+from sql_alchemy_exercises_4.sql_alchemy_exercise_4 import (Person, Bank, Account, engine)
 
 
 def pretty_print(header, contents=None):
