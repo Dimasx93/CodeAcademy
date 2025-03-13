@@ -90,7 +90,8 @@
 #     print("All tests passed.")
 
 #Exercise n3 Testing the sum function
-
+# import math
+#
 # def sum_numbers(list_of_numbers: list) -> float:
 #     """Sum all numbers in a list."""
 #     return sum(list_of_numbers)
@@ -98,8 +99,10 @@
 # def list_negative_int():
 #     assert sum_numbers([-1,-2,-3]) == -6.0
 #
-# # def list_negative_floats():
-# #     assert sum_numbers([-1.2, -2.2 , -3.2]) == -6.6
+# def list_negative_floats():
+#     # res = round(sum_numbers([-1.2, -2.2 , -3.2]), 4)
+#     res = sum_numbers([-1.2, -2.2 , -3.2])
+#     assert math.isclose(res, -6.6, rel_tol=1e-6) , f"Got {res} expected -6.6"
 #
 # def list_positive_negative_numb():
 #     assert sum_numbers([1, -2, 3, -4]) == -2.0
@@ -120,7 +123,7 @@
 # if __name__ == "__main__":
 #     list_positive_int()
 #     list_negative_int()
-#     # list_negative_floats()
+#     list_negative_floats()
 #     list_positive_negative_numb()
 #     empty_list()
 #     all_strings()
@@ -439,59 +442,59 @@
 
 #Exercise n8 Implementing a function first_last6 and testing it
 
-def first_last6(nums: list) -> bool:
-    if not nums:
-        raise ValueError('The length of the list must be at least 1')
-    if not all(isinstance(num, int) for num in nums):
-        raise TypeError('The list must contain only integers')
-    if nums[0] != 6 and nums[-1] != 6:
-        return False
-    return True
-
-
-def first_last6_grade_1_6element_length():
-    assert first_last6([6])
-
-
-def first_last6_first_6element():
-    assert first_last6([6, 1, 0])
-
-
-def first_last6_last_6element():
-    assert first_last6([1, 6])
-
-
-def first_last6_empty_list():
-    try:
-        first_last6([])
-        assert False, 'The length of the list must be at least 1'
-    except ValueError:
-        pass
-
-
-def first_last6_not_integers():
-    try:
-        first_last6([6, '6'])
-        assert False, 'The list must contain only integers'
-    except TypeError:
-        pass
-
-
-def first_last6_not_last_not_first_6element():
-    assert not first_last6([1, 6, 3])
-
-
-def first_last6_no_6element():
-    assert not first_last6([1, 5, 3])
-
-
-if __name__ == "__main__":
-    first_last6_grade_1_6element_length()
-    first_last6_first_6element()
-    first_last6_last_6element()
-    first_last6_empty_list()
-    first_last6_not_integers()
-    first_last6_not_last_not_first_6element()
-    first_last6_no_6element()
-    print("All tests passed.")
+# def first_last6(nums: list) -> bool:
+#     if not nums:
+#         raise ValueError('The length of the list must be at least 1')
+#     if not all(isinstance(num, int) for num in nums):
+#         raise TypeError('The list must contain only integers')
+#     if nums[0] != 6 and nums[-1] != 6:
+#         return False
+#     return True
+#
+#
+# def first_last6_grade_1_6element_length():
+#     assert first_last6([6])
+#
+#
+# def first_last6_first_6element():
+#     assert first_last6([6, 1, 0])
+#
+#
+# def first_last6_last_6element():
+#     assert first_last6([1, 6])
+#
+#
+# def first_last6_empty_list():
+#     try:
+#         first_last6([])
+#         assert False, 'The length of the list must be at least 1'
+#     except ValueError:
+#         pass
+#
+#
+# def first_last6_not_integers():
+#     try:
+#         first_last6([6, '6'])
+#         assert False, 'The list must contain only integers'
+#     except TypeError:
+#         pass
+#
+#
+# def first_last6_not_last_not_first_6element():
+#     assert not first_last6([1, 6, 3])
+#
+#
+# def first_last6_no_6element():
+#     assert not first_last6([1, 5, 3])
+#
+#
+# if __name__ == "__main__":
+#     first_last6_grade_1_6element_length()
+#     first_last6_first_6element()
+#     first_last6_last_6element()
+#     first_last6_empty_list()
+#     first_last6_not_integers()
+#     first_last6_not_last_not_first_6element()
+#     first_last6_no_6element()
+#     print("All tests passed.")
 
