@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+    <form method="POST" action="/create">
+        {{ form.csrf_token }}
+        {{ form.title.label }} {{ form.title }}
+        {{ form.description.label }} {{ form.description }}
+        {{ form.due_date.label }} {{ form.due_date }}
+        {{ form.submit }}
+    </form>
+{% endblock %}
